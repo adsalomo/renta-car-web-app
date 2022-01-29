@@ -8,6 +8,7 @@ export const Car = ({ car }) => {
                 <div className="card-body">
                     <h5 className="card-title">{ `Características principales` }</h5>
                     <hr />
+                    <p className="card-text">{ `Placa: ${car.licencePlate}` }</p>
                     <p className="card-text">{ `Marca: ${car.brand}` }</p>
                     <p className="card-text">{ `Modelo: ${car.model}` }</p>
                     <p className="card-text">{ `Año: ${car.year}` }</p>
